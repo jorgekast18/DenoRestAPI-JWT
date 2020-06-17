@@ -1,0 +1,15 @@
+{
+    "$schema": "https://deno.land/x/denon/schema.json",
+    "env": {
+        "SECRET": "mysecret"
+    },
+    "scripts": {
+        "start": {
+            "cmd": "deno run --allow-write --unstable --allow-env --allow-read --allow-net --allow-plugin app.ts"
+        }
+    },
+    "watcher": {
+        "exts": ["js", "ts"]
+    }
+}
+
